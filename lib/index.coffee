@@ -63,7 +63,8 @@ linter =
   name: 'cookstyle'
   grammarScopes: [
     'source.ruby.chef',
-    'source.chef.recipes'
+    'source.chef.recipes',
+    'source.chef.metadata'
   ]
   scope: 'file'
   lintsOnChange: true
